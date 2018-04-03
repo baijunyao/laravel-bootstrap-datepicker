@@ -1,0 +1,25 @@
+{
+    "name": "baijunyao/laravel-bootstrap-datepicker",
+    "description": "bootstrap-datepicker",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baijunyao",
+            "email": "baijunyao@baijunyao.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Baijunyao\\LaravelBootstrapDatepicker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Baijunyao\\LaravelBootstrapDatepicker\\BootstrapDatepickerServiceProvider"
+            ]
+        }
+    }
+}
