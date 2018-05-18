@@ -18,8 +18,6 @@ class BootstrapDatepickerServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/resources/statics' => public_path('statics'),
         ], 'public');
-        $kernel = $this->app[Kernel::class];
-        $kernel->pushMiddleware(BootstrapDatepicker::class);
     }
 
     /**
