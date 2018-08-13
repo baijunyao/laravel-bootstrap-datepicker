@@ -23,9 +23,9 @@ $(function () {
     });
 })
 php;
-        $this->cssFile('statics/bootstrap-datepicker-1.6.4/css/bootstrap-datepicker.min.css')
-            ->jsFile('statics/bootstrap-datepicker-1.6.4/js/bootstrap-datepicker.min.js')
-            ->jsFile('statics/bootstrap-datepicker-1.6.4/locales/bootstrap-datepicker.zh-CN.min.js')
+        $this->cssFile('statics/laravel-bootstrap-datepicker/css/bootstrap-datepicker.min.css')
+            ->jsFile('statics/laravel-bootstrap-datepicker/js/bootstrap-datepicker.min.js')
+            ->jsFile('statics/laravel-bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js')
             ->jsContent($datepickerJs);
 
     }
